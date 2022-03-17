@@ -31,6 +31,7 @@ Build a react app that has the following:
 ## Work Left / Improvements
 
 1. Persist the liked movies between page routes using Context API / Local Storage
-2. Improve the user interface (i.e. colors, user experience, responsiveness, fonts, spaces etc.)
-3. Avoid using non-presentational operations from the components.
-4. Further cleaned up code.
+2. Show only liked movies on the "/liked" page route.
+3. Improve the user interface (i.e. colors, user experience, responsiveness, fonts, spaces etc.)
+4. Avoid using non-presentational operations from the components.
+5. Further cleaned up code.
