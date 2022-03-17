@@ -4,23 +4,6 @@
   grid-gap: 12px;
 }
 
-.movieContainer {
-  background-color: var(--myrtleGreen);
-  border-radius: 0.5rem;
-  margin: 1rem 0rem;
-  padding: 1.5rem;
-}
-
-.movieTitle {
-  font-size: 1rem;
-}
-
-@media (max-width: 800px) {
-  .movieContainer {
-    width: auto;
-  }
-}
-
 @media (max-width: 1500px) {
   .movies-grid-container {
     grid-template-columns: 1fr 1fr 1fr;

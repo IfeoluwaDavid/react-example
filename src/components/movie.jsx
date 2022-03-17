@@ -1,8 +1,9 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import useLikes from "../utils/useLikes";
-import useMovies from "../utils/useMovies";
+import useMovies from "../hooks/useMovies";
 import { validateImageUrl } from "../utils/helpers";
+import "./movie.css";
 
 const Movie = ({ movie, index }) => {
   const { toggleState, getState } = useLikes();

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useEffect } from "react";
-import useMovies from "./utils/useMovies";
+import useMovies from "./hooks/useMovies";
 import Home from "./routes/home";
 import Liked from "./routes/liked";
 

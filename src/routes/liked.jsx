@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import useMovies from "../utils/useMovies";
+import useMovies from "../hooks/useMovies";
 import useLikes from "../utils/useLikes";
 import { Card } from "react-bootstrap";
 import { validateImageUrl } from "../utils/helpers";
