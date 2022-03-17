@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import useLikes from "../utils/useLikes";
+import useLikes from "../hooks/useLikes";
 import useMovies from "../hooks/useMovies";
 import { validateImageUrl } from "../utils/helpers";
 import "./movie.css";
