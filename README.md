@@ -30,10 +30,12 @@ Build a react app that has the following:
 * Remove any operation that is non-presentational in a component. e.g. API calls. [Not done]
 * Clean code [kind of]
   
-## Work Left / Improvements
+## Work Left & Personal Improvements
 
 1. Persist the liked movies between page routes using Context API / Local Storage
 2. Show only liked movies on the "/liked" page route.
 3. Improve the user interface (i.e. colors, user experience, responsiveness, fonts, spaces etc.)
 4. Avoid using non-presentational operations from the components.
-5. Further cleaned up code.
+5. Add Search functionality to each page route
+6. Try working with a much larger dataset.
+7. Further cleaned up code.
