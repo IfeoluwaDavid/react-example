@@ -1,0 +1,15 @@
+.navContainer {
+  background-color: var(--myrtleGreen);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navOptionsContainer {
+  display: flex;
+  align-self: center;
+}
+
+.navOption {
+  margin: 0rem 0.5rem;
+}

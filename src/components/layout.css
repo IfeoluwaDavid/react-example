@@ -1,0 +1,22 @@
+.mainContainer {
+  width: 100%;
+  font-family: Montserrat;
+  display: block;
+}
+
+.pageContainer {
+  background: var(--verdigris);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: auto; */
+}
+
+.sectionContainer {
+  display: block;
+  justify-content: center;
+}
