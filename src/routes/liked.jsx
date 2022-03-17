@@ -2,12 +2,12 @@ import Layout from "../components/layout";
 import useMovies from "../utils/useMovies";
 import useLikes from "../utils/useLikes";
 import { Card } from "react-bootstrap";
-import { validateImageUrl } from "../utils/request";
+import { validateImageUrl } from "../utils/helpers";
 import "./liked.css";
 
-export default function Liked() {
-  const { movies, setMovies, allStates, setAllStates } = useMovies();
+export default function Liked({ likedMovies }) {
   const { toggleState, getState } = useLikes();
+  const { allStates, setAllStates } = useMovies();
 
   // filter movies with a truthy allStates index === liked movies.
 
@@ -15,8 +15,8 @@ export default function Liked() {
     <Layout>
       <h2>Liked Movies</h2>
       <div className="movies-grid-container">
-        {movies.length > 0 &&
-          movies.map((movie, index) => {
+        {likedMovies.length > 0 &&
+          likedMovies.map((movie, index) => {
             return (
               <Card className="movieContainer">
                 <Card.Img
