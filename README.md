@@ -1,5 +1,7 @@
 # Project Documentation
 
+![image](https://user-images.githubusercontent.com/22034059/158901869-4c92cbe8-252c-4834-b581-9e00be431ad6.png)
+
 ## Requirements
 
 Using a specified API URL and API key which provides a list of movies.
