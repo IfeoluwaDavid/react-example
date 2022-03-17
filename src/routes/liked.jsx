@@ -9,9 +9,11 @@ export default function Liked() {
   const { movies, setMovies, allStates, setAllStates } = useMovies();
   const { toggleState, getState } = useLikes();
 
+  // filter movies with a truthy allStates index === liked movies.
+
   return (
     <Layout>
-      <h2>Liked</h2>
+      <h2>Liked Movies</h2>
       <div className="movies-grid-container">
         {movies.length > 0 &&
           movies.map((movie, index) => {
