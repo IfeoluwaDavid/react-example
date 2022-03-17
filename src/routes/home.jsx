@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layout";
 import { Card } from "react-bootstrap";
 import { validateImageUrl } from "../utils/request";
 import useLikes from "../utils/useLikes";
 import "./home.css";
+import useMovies from "../utils/useMovies";
 
 export default function Home() {
-  const [movies, setMovies] = useState([]);
-  const [allStates, setAllStates] = useState([]);
+  const { movies, setMovies, allStates, setAllStates } = useMovies();
   const { toggleState, getState } = useLikes();
 
   let API_URL = "http://www.omdbapi.com/?s=inception";
@@ -22,7 +22,7 @@ export default function Home() {
         setMovies(data.Search);
         setAllStates(Array(movies.length).fill(false));
       });
-  }, [API_URL, API_KEY, movies.length]);
+  }, [API_URL, API_KEY, movies.length, setAllStates, setMovies]);
 
   return (
     <Layout>
