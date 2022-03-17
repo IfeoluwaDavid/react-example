@@ -15,11 +15,11 @@ Build a react app that has the following:
 	
 3. On the liked route - '/liked'
 
-	Render the movie posters from the list of Liked movies. [DONE]
+* Render the movie posters from the list of Liked movies. [DONE]
 
 4. Navigation: 
 
-	Provide a simple way to move between the two routes [DONE]
+* Provide a simple way to move between the two routes [DONE]
 
 5. Bonus:
 
